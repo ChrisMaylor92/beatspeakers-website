@@ -8,9 +8,9 @@
   padding:0px;
 }
 #header{
-  width: 100%;
-  height: 100vh;
-  background-image: url(assets/bgSharp.jpg);
+  width:fit-content;
+  height:fit-content;
+  background-image: url(assets/background.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

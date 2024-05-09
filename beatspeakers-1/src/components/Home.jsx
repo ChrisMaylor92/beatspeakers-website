@@ -15,9 +15,9 @@ export const Home = () => {
     }, [])
 
     return(
-    <div className="grid grid-cols-3 w-screen h-screen" >
-        <div className="w-screen h-screen flex flex-col items-left  text-gray-300">
-          <div className="pt-48 md:pt-60 pl-8 flex">
+    <div className="grid grid-cols-1 lg:grid-cols-3 w-screen h-screen" >
+        <div className="w-screen h-screen flex flex-col items-left pl-10 lg:pl-12 xl:pl-14 2xl:pl-16 text-gray-300">
+          <div className="pt-48 lg:pt-72 pl-1 flex">
             <TypeAnimation 
                 sequence={[
                     1000,
@@ -27,12 +27,12 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={70}
-                className="text-2xl md:text-4xl text-left font-bold  pb-2 justify-items-start text-[#ffffff]"
+                className="text-2xl sm:text-3xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl text-left font-bold  pb-2 justify-items-start text-[#ffffff]"
                 repeat={0}
                 cursor={false}
             />
           </div>
-          <div className="pl-8 flex">
+          <div className="flex">
             <TypeAnimation 
                 sequence={[
                     2100,
@@ -42,12 +42,12 @@ export const Home = () => {
                     ]}
                 wrapper="span"
                 speed={60}
-                className="text-6xl md:text-8xl text-left font-bold  pb-2 justify-items-start text-[#43ad2e]"
+                className="text-7xl sm:text-8xl md:text-8xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-left font-bold  pb-2 justify-items-start text-[#43ad2e]"
                 repeat={0}
                 cursor={false}
             />
           </div>
-          <div className="flex items-center gap-3 pl-8">
+          <div className="flex items-center gap-3 ">
                     <TypeAnimation 
                         sequence={[
                             2900,
@@ -57,7 +57,7 @@ export const Home = () => {
                             ]}
                         wrapper="span"
                         speed={60}
-                        className="text-5xl md:text-7xl text-left font-bold pb-2 justify-items-start text-[#e87939]"
+                        className="text-6xl sm:text-7xl md:text-7xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-left font-bold pb-2 justify-items-start text-[#e87939]"
                         repeat={0}
                         cursor={false}
                     />
@@ -70,7 +70,7 @@ export const Home = () => {
                             ]}
                         wrapper="span"
                         speed={60}
-                        className="text-3xl md:text-5xl text-left font-bold pb-2 pt-3 justify-items-start text-[#ffffff]"
+                        className="text-4xl sm:text-5xl md:text-5xl lg:text-3xl xl:text-4xl 2xl:text-5xl text-left font-bold pb-2 pt-3 justify-items-start text-[#ffffff]"
                         repeat={0}
                         cursor={false}
                     />
@@ -83,12 +83,12 @@ export const Home = () => {
                             ]}
                         wrapper="span"
                         speed={60}
-                        className="text-5xl md:text-7xl text-left font-bold pb-2 justify-items-start text-[#e87939]"
+                        className="text-6xl sm:text-7xl md:text-7xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-left font-bold pb-2 justify-items-start text-[#e87939]"
                         repeat={0}
                         cursor={false}
                     />
             </div>
-            <div className="pl-8 flex">
+            <div className="flex">
                 <TypeAnimation 
                     sequence={[
                         3600,
@@ -98,13 +98,13 @@ export const Home = () => {
                         ]}
                     wrapper="span"
                     speed={60}
-                    className="text-4xl md:text-6xl text-left font-bold pb-2 justify-items-start text-[#ffffff]"
+                    className="text-5xl sm:text-6xl md:text-6xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-left font-bold pb-2 justify-items-start text-[#ffffff]"
                     repeat={0}
                     cursor={false}
                 />
             </div>
-        {timePassedOne && <p className="text-white text-left pt-4 pl-8">FIND OUT MORE _button</p>}
-        <div className="pl-8 flex">
+        {timePassedOne && <p className="text-white text-left pt-4 ">FIND OUT MORE _button</p>}
+        <div className="flex">
                 <TypeAnimation 
                     sequence={[
                         5400,
@@ -114,23 +114,26 @@ export const Home = () => {
                         ]}
                     wrapper="span"
                     speed={60}
-                    className="text-1xl md:text-3xl text-left font-bold justify-items-start text-[#ffffff]"
+                    className="text-2xl sm:text-3xl md:text-3xl lg:text-xl xl:text-2xl 2xl:text-3xl text-left font-bold justify-items-start text-[#ffffff]"
                     repeat={0}
                     cursor={false}
                 />
                 </div>
-                {timePassedTwo && <p className="text-white text-left  pl-8">GET IN TOUCH _button</p>}
+                {timePassedTwo && <p className="text-white text-left  ">GET IN TOUCH _button</p>}
         
             </div>
+            
             <div className="flex items-center justify-center">
-                <ReactPlayer
+            <ReactPlayer
                     url={myVideo}
                     loop={true}
-                    width="500px"
-                    height="500px"
+                    playing={true}
+                    width="450px"
+                    height="450px"
                     controls
-                />
+                /> 
             </div>
+           
             <div>
 
             </div>

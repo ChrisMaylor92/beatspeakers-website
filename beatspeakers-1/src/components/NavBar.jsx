@@ -12,8 +12,8 @@ export const NavBar = () => {
         <div className="flex">
             
         <div className="fixed w-full h-[100px] flex justify-between items-center pl-6 lg:pl-8 xl:pl-10 2xl:pl-12 pr-6 bg-[#121212] text-gray-300 text-lg">
-            <div className="pt-24 sm:pt-28 md:pt-28 lg:pt-40 xl:pt-40 2xl:pt-48 z-10">
-                <img className="w-60 lg:w-80 xl:w-80 2xl:w-96"src={logo1} alt="logo" />
+            <div className="pt-24 sm:pt-28 md:pt-28 lg:pt-28 xl:pt-40 2xl:pt-40 z-10">
+                <img className="w-60 xl:w-80 2xl:w-80"src={logo1} alt="logo" />
             </div>
             <div>
             <ul className="hidden md:flex items-center gap-5">

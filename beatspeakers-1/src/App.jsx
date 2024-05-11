@@ -14,11 +14,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div >
+    <div className="w-screen h-screen" id="header">
       <div >
         <NavBar/>
       </div>
-      <div id="header">
+      <div>
 
       
       <Routes>

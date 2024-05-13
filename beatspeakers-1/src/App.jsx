@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import { Route, Routes } from 'react-router-dom';
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -10,17 +10,16 @@ import { Artists } from './components/Artists';
 import { Gallery } from './components/Gallery';
 import { Contact } from './components/Contact';
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
+ 
   return (
     <div className="w-screen h-screen" id="header">
+      
       <div >
         <NavBar/>
       </div>
       <div>
-
-      
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

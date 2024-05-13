@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import logo2 from '../assets/logoGreenGreyBorder.png'
 import logo1 from '../assets/logoGreyBorder2.png'
 import sideimg from '../assets/sideimg2.png'
@@ -13,25 +14,28 @@ export const NavBar = () => {
             
         <div className="fixed w-screen h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
             <div className="group">
-                <div className="group-hover:hidden pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
-                    <img className="w-60 xl:w-72 " src={logo1} alt="logo" />
-                </div>
-                <div className="hidden group-hover:flex pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
-                    <img className="w-60 xl:w-72" src={logo2} alt="logo" />
-                </div>
+                        <HashLink to="/#home" smooth={true} duration={500} className="text-gray-300 hover:text-[#43ad2e]">
+                            <div className="group-hover:hidden pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
+                                <img className="w-60 xl:w-72 " src={logo1} alt="logo" />
+                            </div>
+                            <div className="hidden group-hover:flex pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
+                                <img className="w-60 xl:w-72" src={logo2} alt="logo" />
+                            </div>
+                        </HashLink>
+                
             </div>
 
             <div className="z-20">
             <ul className="hidden md:flex items-center gap-5">
                     <li>
-                        <Link to="/" className="text-gray-300 hover:text-[#43ad2e]">
+                        <HashLink to="/#home" smooth={true} duration={500} className="text-gray-300 hover:text-[#43ad2e]">
                             Home
-                        </Link>
+                        </HashLink>
                     </li>
                     <li>
-                        <Link to="/about" className="text-gray-300 hover:text-[#43ad2e]">
+                        <HashLink to="/about#about" smooth={true} duration={500} className="text-gray-300 hover:text-[#43ad2e]">
                             About
-                        </Link>
+                        </HashLink>
                     </li>
                     <li>
                         <Link to="/workshops" className="text-gray-300 hover:text-[#43ad2e]">

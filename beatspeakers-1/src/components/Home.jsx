@@ -1,13 +1,16 @@
 
 import { Welcome } from './Welcome';
 import { About } from './About';
+import { Contact } from './Contact';
 export const Home = () => {
     
 
     return(
-    <div className="w-screen h-screen">
+    <div id="home" className="w-screen h-screen">
         <Welcome/>
         <About/>
+        <Contact/>
+
     </div>
     ) 
 }

@@ -1,8 +1,7 @@
 export const About = () => {
-    return (
-        <div  className="w-screen h-screen " >
-            
-            <h1>About</h1>
+    return(
+        <div className="w-screen h-screen">
+            <p>About</p>
         </div>
     )
 }

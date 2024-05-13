@@ -11,12 +11,12 @@ export const NavBar = () => {
     return (
         <div className="flex">
             
-        <div className="fixed w-full h-[100px] flex justify-between items-center pl-6 lg:pl-8 xl:pl-10 2xl:pl-12 pr-6  bg-[#121212]  text-lg">
+        <div className="fixed w-screen h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
             <div className="group">
-                <div className="group-hover:hidden pt-24 sm:pt-28 md:pt-28 lg:pt-28 xl:pt-40 2xl:pt-40 z-10">
-                    <img className="w-60 xl:w-80 2xl:w-80" src={logo1} alt="logo" />
+                <div className="group-hover:hidden pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
+                    <img className="w-60 xl:w-72 " src={logo1} alt="logo" />
                 </div>
-                <div className="hidden group-hover:flex pt-24 sm:pt-28 md:pt-28 lg:pt-28 xl:pt-40 2xl:pt-40 z-10">
+                <div className="hidden group-hover:flex pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
                     <img className="w-60 xl:w-80 2xl:w-80" src={logo2} alt="logo" />
                 </div>
             </div>
@@ -55,7 +55,7 @@ export const NavBar = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex fixed bottom-0 right-0 z-10">
+            <div className="flex fixed bottom-0 right-0 z-10 pointer-events-none">
                 <img src={sideimg} alt="logo" />
             </div>
             {/* Hamburger */}

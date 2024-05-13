@@ -1,5 +1,5 @@
 import ReactPlayer from 'react-player';
-import myVideo from '../assets/video.mp4'
+import myVideo from '../assets/video3.mp4'
 export const Welcome = () => {
     return (
         <div>

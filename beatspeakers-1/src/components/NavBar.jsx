@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo2 from '../assets/BeatspeakersLogoGreen.png'
+import logo2 from '../assets/logoGreenGreyBorder.png'
 import logo1 from '../assets/logoGreyBorder2.png'
 import sideimg from '../assets/sideimg2.png'
 import { useState } from 'react'
@@ -17,7 +17,7 @@ export const NavBar = () => {
                     <img className="w-60 xl:w-72 " src={logo1} alt="logo" />
                 </div>
                 <div className="hidden group-hover:flex pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
-                    <img className="w-60 xl:w-80 2xl:w-80" src={logo2} alt="logo" />
+                    <img className="w-60 xl:w-72" src={logo2} alt="logo" />
                 </div>
             </div>
 

@@ -10,32 +10,32 @@ export const NavBar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div className="flex">
+        <div className="">
             
-        <div className="fixed w-screen h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
+        <div className="fixed w-full h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
             <div className="group">
-                        <HashLink to="/#home" smooth={true} duration={500} className="text-gray-300 hover:text-[#43ad2e]">
+                        <Link to="/" className="text-gray-300 hover:text-[#43ad2e]">
                             <div className="group-hover:hidden pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
                                 <img className="w-60 xl:w-72 " src={logo1} alt="logo" />
                             </div>
                             <div className="hidden group-hover:flex pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
                                 <img className="w-60 xl:w-72" src={logo2} alt="logo" />
                             </div>
-                        </HashLink>
+                        </Link>
                 
             </div>
 
             <div className="z-20">
             <ul className="hidden md:flex items-center gap-5">
                     <li>
-                        <HashLink to="/#home" smooth={true} duration={500} className="text-gray-300 hover:text-[#43ad2e]">
+                        <Link to="/" className="text-gray-300 hover:text-[#43ad2e] z-50 pointer-events-auto">
                             Home
-                        </HashLink>
+                        </Link>
                     </li>
                     <li>
-                        <HashLink to="/about#about" smooth={true} duration={500} className="text-gray-300 hover:text-[#43ad2e]">
+                        <Link to="/about" className="text-gray-300 hover:text-[#43ad2e]">
                             About
-                        </HashLink>
+                        </Link>
                     </li>
                     <li>
                         <Link to="/workshops" className="text-gray-300 hover:text-[#43ad2e]">

@@ -9,7 +9,7 @@ export const Welcome = () => {
     return (
         <div >
             {/* Full screen Horizontal layout*/}
-            <div  className="hidden xl:grid grid-cols-1 grid-rows-4  w-screen h-screen " >
+            <div  className="hidden xl:grid grid-cols-1 grid-rows-4  w-full h-screen " >
                 <div className="flex ">
                     {/* <p className="text-gray-300 text-8xl">TESTING</p> */}
                 </div>
@@ -23,12 +23,12 @@ export const Welcome = () => {
                         <div className="pt-3 flex gap-5">
                            
                             <HashLink to="/#about" smooth={true} duration={500}>
-                                <button className="text-white text-lg border-2 px-6 py-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                <button className="text-white text-lg border-2 p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                                     Find out more
                                 </button>
                             </HashLink>
                             <HashLink to="/#contact" smooth={true} duration={500}>
-                                <button className="text-white text-lg border-2 px-6 py-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                <button className="text-white text-lg border-2 p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                                     Get in touch
                                 </button>
                             </HashLink>
@@ -37,7 +37,8 @@ export const Welcome = () => {
                         </div>
                     </div>
                     
-                    <div className="items-center">
+                    <div className="items-center
+                    ">
                                 <ReactPlayer
                                     url={myVideo}
                                     loop={true}
@@ -51,7 +52,7 @@ export const Welcome = () => {
                                 /> 
                     </div>
                     
-                    <div className="mx-12 ">
+                    <div className=" mx-12 ">
                         <p className="text-gray-300 text-left font-bold text-3xl">Testimonials</p>
                         <p className="text-gray-300 text-left font-bold text-3xl">Write some nice things here, quotes from schools and students</p>
                     </div>
@@ -71,7 +72,16 @@ export const Welcome = () => {
                             <p className="text-7xl text-[#e87939] text-left font-bold">Rap & DJ</p>
                             <p className="text-6xl text-gray-300 text-left font-bold">Workshops</p>
                             <div className="pt-3 flex gap-5">
-                           
+                            <HashLink to="/#about" smooth={true} duration={500}>
+                                <button className="text-white text-lg border-2 p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                    Find out more
+                                </button>
+                            </HashLink>
+                            <HashLink to="/#contact" smooth={true} duration={500}>
+                                <button className="text-white text-lg border-2 p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                    Get in touch
+                                </button>
+                            </HashLink>
                            
                                 
                             
@@ -144,7 +154,16 @@ export const Welcome = () => {
                         <p className="text-gray-300 text-left font-bold text-3xl">Write some nice things here, quotes from schools and students</p>
                     </div>
             </div>
-            
+            <div id="about" className="">
+            <div className="flex items-center justify-center h-auto text-gray-300 text-2xl">
+                <p>About us</p>
+                <div className=" w-3/5 h-1/2 border-2">
+                <p>Beatspeakers music education agency provides high quality and engaging workshops in Beatbox, Rap and DJing.</p>
+                </div>
+               
+                        
+             </div>
+        </div>
             
         </div>
         

@@ -54,7 +54,7 @@ export const Welcome = () => {
                     
                     <div className=" mx-12 ">
                         <p className="text-gray-300 text-left font-bold text-3xl">Testimonials</p>
-                        <p className="text-gray-300 text-left font-bold text-3xl">Write some nice things here, quotes from schools and students</p>
+                        <p className="text-gray-300 text-left  text-3xl">Write some nice things here, quotes from schools and students</p>
                     </div>
                 </div>
                 
@@ -87,9 +87,9 @@ export const Welcome = () => {
                             
                         </div>
                         </div>
-                        <div className="mr-12 ml-20">
+                        <div className="mr-8 ml-10">
                             <p className="text-gray-300 text-left font-bold text-3xl">Testimonials</p>
-                            <p className="text-gray-300 text-left font-bold text-3xl">Write some nice things here, quotes from schools and students</p>
+                            <p className="text-gray-300 text-left text-3xl">Write some nice things here, quotes from schools and students</p>
                         </div>
                     </div>               
                     
@@ -151,7 +151,7 @@ export const Welcome = () => {
                     
                     <div className="m-8 ">
                         <p className="text-gray-300 text-left font-bold text-3xl">Testimonials</p>
-                        <p className="text-gray-300 text-left font-bold text-3xl">Write some nice things here, quotes from schools and students</p>
+                        <p className="text-gray-300 text-left  text-3xl">Write some nice things here, quotes from schools and students</p>
                     </div>
             </div>
             <div id="about" className="">

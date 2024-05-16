@@ -1,3 +1,5 @@
+import { Footer } from "./Footer"
+
 export const Workshops = () => {
     return (
         
@@ -20,7 +22,7 @@ export const Workshops = () => {
                         Beatbox Assembly or Conference
                         </p>
                         <p className="pt-5 text-xl text-start">
-                        With a few small changes, the Beatbox Taster Workshop works great with much bigger audiences and crowds. Entertaining for everyone involved and with only enough time for a select number to perform; there is space to hide for those who can’t quite make heads and tails of their boots and cats. 
+                        With a few small changes, the Beatbox Taster Workshop works great with much bigger audiences and crowds. Highly engaging and entertaining for everyone involved and with only enough time for a select number to perform; there is space to hide for those who can’t quite make heads and tails of their boots and cats. 
                         </p>
                     </div>
                 </div>
@@ -35,6 +37,7 @@ export const Workshops = () => {
                     </div>
                 </div>      
              </div>
+             <Footer/>
         </div>
     )
 }

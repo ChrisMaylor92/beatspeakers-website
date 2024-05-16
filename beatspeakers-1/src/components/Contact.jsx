@@ -1,6 +1,6 @@
 export const Contact = () => {
     return (
-        <div id="contact" name="contact"className="w-screen h-screen  flex justify-center items-center p-4">
+        <div id="contact" name="contact"className="w-scree  flex justify-center items-center p-28">
             
             <form method="post" action="https://getform.io/f/pbnvwyqb" className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-2">
@@ -12,6 +12,7 @@ export const Contact = () => {
                 <textarea className="bg-[#ffffff] p-1" placeholder="Message" name="message" rows="5" ></textarea>
                 <button className="text-white border-2 hover:bg-[#43ad2e] hover:border-[#43ad2e] px-4 py-3 my-6 mx-auto ">Get in touch!</button>
             </form>
+            
         </div>
         
         

@@ -19,7 +19,7 @@ function App() {
     <div className="fixed" id="header">
       
       <div >
-        <NavBar/>
+        <NavBar className=""/>
       </div>
       <div>
       <Routes>

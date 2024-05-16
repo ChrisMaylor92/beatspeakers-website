@@ -2,6 +2,7 @@
 import { Welcome } from './Welcome';
 import { About } from './About';
 import { Contact } from './Contact';
+import { Footer } from './Footer';
 export const Home = () => {
     
 
@@ -10,7 +11,7 @@ export const Home = () => {
         <Welcome/>
         
         <Contact/>
-
+        <Footer/>
     </div>
     ) 
 }

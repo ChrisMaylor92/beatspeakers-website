@@ -10,7 +10,7 @@ export const NavBar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     return (
-        <div className="">
+        <div className="z-50">
             
         <div className="fixed w-full h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
             <div className="group">

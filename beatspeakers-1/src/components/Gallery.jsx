@@ -1,9 +1,11 @@
-import ultragrade from '../assets/video3.mp4'
+import ultragrade from '../assets/Ultragrade1.mp4'
+import ReactPlayer from 'react-player';
+
 export const Gallery = () => {
     return (
         <div id="about" className="w-screen f-screen ">
             <div className="flex items-center justify-center w-screen h-screen text-gray-300 text-2xl">
-                <p>About us</p>
+                <p>Gallery</p>
                 <div className="flex items-center justify-center">
                                 <ReactPlayer
                                     url={ultragrade}
@@ -11,8 +13,8 @@ export const Gallery = () => {
                                     volume={1}
                                     playing={true}
                                     muted={true}
-                                    width="80%"
-                                    height="80%"
+                                    width="50%"
+                                    height="50%"
                                     controls
                                 
                                 /> 

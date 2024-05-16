@@ -1,5 +1,6 @@
 export const Workshops = () => {
     return (
+        
         <div id="about" className="w-screen h-screen">
             <div className="grid grid-rows-4 gap-10 items-center w-screen pb-16 text-gray-300 ">
                 <h1 className="w-screen font-jungle text-7xl pt-20">WORKSHOP OFFERS</h1>

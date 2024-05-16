@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: "Jungle";
   src: local("Jungle-Hope"),
   url('./assets/fonts/Jungle-Hope.ttf') format("truetype")
 }
+
 
 body{
   overflow: hidden;

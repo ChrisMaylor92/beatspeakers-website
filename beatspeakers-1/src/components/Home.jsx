@@ -8,7 +8,7 @@ export const Home = () => {
     return(
     <div id="home" className="w-screen h-screen">
         <Welcome/>
-        <About/>
+        
         <Contact/>
 
     </div>

@@ -12,9 +12,11 @@ import { Contact } from './components/Contact';
 
 
 function App() {
- 
+  
+
+
   return (
-    <div className="w-screen h-screen" id="header">
+    <div className="fixed" id="header">
       
       <div >
         <NavBar/>

@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Jungle";
+  src: local("Jungle-Hope"),
+  url('./assets/fonts/Jungle-Hope.ttf') format("truetype")
+}
 
+body{
+  overflow: hidden;
+  
+}
 #root{
  
     margin: 0px;
@@ -11,7 +20,7 @@
 }
 
 #header{
-  overflow:auto;
+  overflow:scroll;
   background-image: url(assets/background.jpg);
   background-size: cover;
   background-position: center;

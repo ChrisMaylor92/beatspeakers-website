@@ -1,15 +1,17 @@
 import { FaInstagram } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+
 
 export const Footer = () => {
     
     return (
-                <div className=" w-screen h-[200px]  bottom-0 z-10 bg-[#121212]  text-lg">
+                <div className="flex w-screen h-[150px] items-center justify-center bottom-0 z-10 bg-[#121212] text-white text-lg">
+                <a href="https://www.instagram.com/beatspeakers" className="flex items-center text-gray-300 hover:text-[#43ad2e] z-50 pointer-events-auto">
+                     <FaInstagram color="white" size="40px"/>
+                     <p className="pl-2">Check us out on Instagram</p> 
+                </a>
                 
-                <FaInstagram color="white" size="80px"/>
-                   <p>Check us out on Instagram</p> 
-                   <p>Useful links</p>
-                   <ul className="hidden md:flex items-center gap-5">
+                   {/* <p>Useful links</p> */}
+                   {/* <ul className="hidden md:flex items-center gap-5">
                     <li>
                         <Link to="/" className="text-gray-300 hover:text-[#43ad2e] z-50 pointer-events-auto">
                             Home
@@ -40,7 +42,7 @@ export const Footer = () => {
                             Contact
                         </Link>
                     </li>
-                </ul>
+                </ul> */}
                 
                     
                     

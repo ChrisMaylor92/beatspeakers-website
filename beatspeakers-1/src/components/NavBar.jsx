@@ -32,26 +32,26 @@ export const NavBar = () => {
                             Home
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/about" className="text-gray-300 hover:text-[#43ad2e]">
                             About
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/workshops" className="text-gray-300 hover:text-[#43ad2e]">
                             Workshops
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/artists" className="text-gray-300 hover:text-[#43ad2e]">
                             Artists
                         </Link>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                         <Link to="/gallery" className="text-gray-300 hover:text-[#43ad2e]">
                             Gallery
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/contact" className="text-gray-300 hover:text-[#43ad2e]">
                             Contact

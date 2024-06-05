@@ -13,13 +13,13 @@ export const NavBar = () => {
         <div className="z-50">
             
         <div className="fixed w-full h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
-            <div className="group">
+            <div className="group z-50">
                         <Link to="/" className="text-gray-300 hover:text-[#43ad2e]">
-                            <div className="group-hover:hidden pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
-                                <img className="w-60 xl:w-72 " src={logo1} alt="logo" />
+                            <div className="group-hover:hidden pl-4 md:pl-8 pt-20   z-10">
+                                <img className="w-52  " src={logo1} alt="logo" />
                             </div>
-                            <div className="hidden group-hover:flex pl-4 md:pl-8 pt-28 xl:pt-40  z-10">
-                                <img className="w-60 xl:w-72" src={logo2} alt="logo" />
+                            <div className="hidden group-hover:flex pl-4 md:pl-8 pt-20   z-10">
+                                <img className="w-52 " src={logo2} alt="logo" />
                             </div>
                         </Link>
                 
@@ -59,11 +59,11 @@ export const NavBar = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex fixed bottom-0 right-0 z-10 pointer-events-none">
+            <div className="flex fixed bottom-0 right-0 z-50 pointer-events-none">
                 <img src={sideimg} alt="logo" />
             </div>
             {/* Hamburger */}
-            <div onClick={handleClick} className="md:hidden z-10 text-gray-300 hover:text-[#43ad2e]" >
+            <div onClick={handleClick} className="md:hidden z-50 text-gray-300 hover:text-[#43ad2e]" >
                     {!nav ? <FaBars/> : <FaTimes/> }
             </div>
             {/* Mobile Menu */}
@@ -79,26 +79,26 @@ export const NavBar = () => {
                             Home
                         </Link>
                     </li>
-                    <li className="py-2 text-2xl ">
+                    {/* <li className="py-2 text-2xl ">
                         <Link onClick={handleClick} to="/about" className='text-gray-300 hover:text-[#43ad2e]' >
                             About
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="py-2 text-2xl ">
                         <Link onClick={handleClick} to="/workshops" className='text-gray-300 hover:text-[#43ad2e]' >
                             Workshops
                         </Link>
                     </li>
-                    <li className="py-2 text-2xl ">
+                    {/* <li className="py-2 text-2xl ">
                         <Link onClick={handleClick} to="/artists" className='text-gray-300 hover:text-[#43ad2e]' >
                             Artists
                         </Link>
-                    </li>
-                    <li className="py-2 text-2xl ">
+                    </li> */}
+                    {/* <li className="py-2 text-2xl ">
                         <Link onClick={handleClick} to="/gallery" className='text-gray-300 hover:text-[#43ad2e]' >
                             Gallery
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="py-2 text-2xl ">
                         <Link onClick={handleClick} to="/contact" className='text-gray-300 hover:text-[#43ad2e]' >
                             Contact

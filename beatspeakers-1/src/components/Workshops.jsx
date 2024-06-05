@@ -2,12 +2,13 @@ import { Footer } from "./Footer"
 import workshop1 from "../assets/WorkshopKids2 - Copy.jpg"
 import workshop2 from "../assets/Lakefest.jpg"
 import workshop3 from "../assets/LoopStationKid.jpg"
+import { Contact } from "./Contact"
 export const Workshops = () => {
     return (
         
         <div id="about" className="w-screen h-screen">
             <div className="grid grid-rows-4 gap-10 items-center w-screen pb-16 text-gray-300 ">
-                <h1 className="w-screen font-jungle text-7xl pt-20">WORKSHOP OFFERS</h1>
+                <h1 className="w-screen font-bold text-7xl pt-20">Workshop Offers</h1>
                 <div className="grid items-center justify-center w-screen h-full ">
                 
                     <div className="grid grid-cols-4 rounded-2xl border-2 border-[#43ad2e] mx-60 p-5 bg-[#121212]">
@@ -50,6 +51,7 @@ export const Workshops = () => {
                     </div>
                 </div>      
              </div>
+             <Contact/>
              <Footer/>
         </div>
     )

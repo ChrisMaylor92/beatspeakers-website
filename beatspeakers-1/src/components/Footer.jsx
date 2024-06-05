@@ -4,8 +4,8 @@ import { FaInstagram } from "react-icons/fa";
 export const Footer = () => {
     
     return (
-                <div className="flex w-screen h-[150px] items-center justify-center bottom-0 z-10 bg-[#121212] text-white text-lg">
-                <a href="https://www.instagram.com/beatspeakers" className="flex items-center text-gray-300 hover:text-[#43ad2e] z-50 pointer-events-auto">
+                <div className="flex w-screen h-[150px] items-center justify-center bottom-0  bg-[#121212] text-white text-lg">
+                <a href="https://www.instagram.com/beatspeakers" className="flex items-center text-gray-300 hover:text-[#43ad2e]  pointer-events-auto">
                      <FaInstagram color="white" size="40px"/>
                      <p className="pl-2">Check us out on Instagram</p> 
                 </a>

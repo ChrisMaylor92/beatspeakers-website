@@ -32,15 +32,17 @@ export const Carousel = () => {
     const [unmuted, setUnmuted] = useState(false)
     const nextSlide = () => {
         setSlide(slide === data.length -1 ? 0 : slide + 1)
+        setUnmuted(true)
     }
     const prevSlide = () => {
         setSlide(slide === 0 ? data.length - 1 : slide - 1)
+        setUnmuted(true)
     }
     
-    return <div className="carousel">
-                {/* <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/> */}
+    return <div className="flex flex-col  justify-center items-center">
+                
                 {data.map((item, idx) => {
-                    return <span key={idx} className={slide === idx ? "flex justify-center items-center" : "hidden"}>
+                    return <span key={idx} className={slide === idx ? "flex justify-center pb-5 items-center md:w-[750px] lg:w-[1000px]" : "hidden"}>
                             
                             
                                 <ReactPlayer
@@ -49,20 +51,22 @@ export const Carousel = () => {
                                     volume={1}
                                     muted={unmuted === false ? true : false}
                                     playing={slide === idx ? true : false}
-                                    width="1000px"
+                                    width="100%"
                                     height="100%"
                                     controls
                                     className="justify-center items-center"
                                 /> 
-                            
+                                
                         </span>
                 })}
                 
-                {/* <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide}/> */}
+                
                 <span className="indicators">
+                    {/* <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/> */}
                     {data.map((_, idx) => {
                         return <button key={idx} onClick={() => {setSlide(idx); setUnmuted(true)} } className={slide === idx ? "indicator" : "indicator indicator-inactive"}></button>
                     })}
+                    {/* <BsArrowRightCircleFill className="arrow arrow-right" onClick={nextSlide}/> */}
                 </span>
     </div>
 }

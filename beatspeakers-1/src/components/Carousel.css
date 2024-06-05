@@ -1,37 +1,11 @@
-.carousel{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-} 
-.card{
-    width:900px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.card-hidden{
-    display: none;
-}
 
 
-.slide{
-    border-radius: 0.5rem;
-    box-shadow:0px 0px 7px #040c16;
-   
-}
 
-.slide-hidden{
-    display:none;
-}
 
 .arrow{
-    position: relative;
-    width:2rem;
-    height: 2rem;
+   
+    width:1.5rem;
+    height: 1.5rem;
     color: white;
     filter: drop-shadow(0px 0px 5px #555);
     margin-bottom: 75px;
@@ -42,15 +16,15 @@
     cursor:pointer;
 }
 .arrow-left{
-    left: -1rem;
+    left: -30px;
 }
 .arrow-right{
-    right:-1rem;
+    right:-30px;
 }
 .indicators{
     display:flex;
-    position:absolute;
-    bottom: -12rem;
+   
+    bottom:0px;
 }
 .indicator{
     background-color: white;

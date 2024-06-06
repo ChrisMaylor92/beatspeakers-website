@@ -15,10 +15,10 @@ export const NavBar = () => {
         <div className="fixed w-full h-[100px] flex justify-between items-center pr-6  bg-[#121212]  text-lg">
             <div className="group z-50">
                         <Link to="/" className="text-gray-300 hover:text-[#43ad2e]">
-                            <div className="lg:group-hover:hidden pl-3 lg:pl-8 pt-12 lg:pt-20   z-10">
+                            <div className="lg:group-hover:hidden pl-2 lg:pl-8 pt-12 lg:pt-20   z-10">
                                 <img className="w-40 lg:w-52  " src={logo1} alt="logo" />
                             </div>
-                            <div className="hidden lg:group-hover:flex pl-3 lg:pl-8 pt-12 lg:pt-20   z-10">
+                            <div className="hidden lg:group-hover:flex pl-2 lg:pl-8 pt-12 lg:pt-20   z-10">
                                 <img className="w-40 lg:w-52 " src={logo2} alt="logo" />
                             </div>
                         </Link>

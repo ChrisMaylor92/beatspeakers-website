@@ -10,8 +10,8 @@ export const Welcome = () => {
     return (
         <div>
            
-            <div className='flex  flex-col p-5 md:p-0 items-center justify-center w-full'>
-                <div className='pt-36 md:pt-40 pb-5 w-[100%] md:w-[750px] lg:w-[1000px]'>
+            <div className='flex  flex-col px-5 md:p-0 items-center justify-center w-full'>
+                <div className='pt-32 lg:pt-40 pb-5 w-[100%] md:w-[750px] lg:w-[1000px]'>
                     <div className='flex flex-col lg:flex-row'>
                         <div className='pb-5 '>
                             <p className="text-xl sm:text-3xl text-gray-300 text-left font-bold">Music Education Agency</p>
@@ -23,29 +23,32 @@ export const Welcome = () => {
                         <div className="flex lg:hidden flex-row w-full gap-4 pb-5 justify-start">
                                     
                                     <Link to="/workshops" >
-                                        <button className="text-white text-sm sm:text-lg border-2 p-2 sm:p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                        <button className="text-white text-sm sm:text-lg border-2 p-2 sm:p-3 flex items-center  ">
                                             View Workshop Offers
                                         </button>
                                     </Link>
                                     <HashLink to="/#contact" smooth={true} duration={500}>
-                                    <button className="text-white text-sm sm:text-lg border-2 p-2 sm:p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                    <button className="text-white text-sm sm:text-lg border-2 p-2 sm:p-3 flex items-center  ">
                                         Get in touch
                                     </button>
                                 </HashLink>
                                     
                             </div>
                             <div className="text-left w-full h-1/2 ">
-                                <p>Our mission is to inspire young people to pursue a career in music by providing high quality workshops in art forms that are accessible and relevant within today’s musical landscape. Beatspeakers provide Schools, Colleges and Youth Programmes with the highest quality facilitators in Beatbox, Rap and DJing nationwide.  </p>
+                                <p className='font-bold text-2xl border-b-2 mb-2'>Our Mission</p>
+                                <p>Beatspeakers aim to inspire young people to pursue a career in music by providing high quality workshops in art forms that are accessible and relevant within today’s musical landscape.  </p>
+                                
+                                <p>We provide Schools, Colleges and Youth Programmes with the highest quality facilitators in Beatbox, Rap and DJing nationwide.  </p>
                             </div>  
                             <div className="hidden lg:flex flex-row w-full gap-4 lg:pt-12 justify-start">
                                     
                                     <Link to="/workshops" >
-                                        <button className="text-white text-lg border-2 p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                        <button className="text-white text-lg border-2 p-2 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                                             View Workshop Offers
                                         </button>
                                     </Link>
                                     <HashLink to="/#contact" smooth={true} duration={500}>
-                                    <button className="text-white text-lg border-2 p-3 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
+                                    <button className="text-white text-lg border-2 p-2 my-2 flex items-center hover:bg-[#43ad2e] hover:border-[#43ad2e]">
                                         Get in touch
                                     </button>
                                 </HashLink>

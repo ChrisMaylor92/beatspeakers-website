@@ -2,6 +2,8 @@ import { Footer } from "./Footer"
 import workshop1 from "../assets/WorkshopKids2 - Copy.jpg"
 import workshop2 from "../assets/Lakefest.jpg"
 import workshop3 from "../assets/LoopStationKid.jpg"
+import workshop4 from "../assets/ScratchDJ.jpg"
+import workshop5 from "../assets/Microphone.jpg"
 import { Contact } from "./Contact"
 export const Workshops = () => {
     return (
@@ -24,6 +26,44 @@ export const Workshops = () => {
                             
                             <p className="pt-5 text-sm md:text-md lg:text-lg xl:text-xl text-start">
                                 A fun, exciting and highly engaging introduction to beatboxing, in which participants witness a performance, learn the fundamentals of beatboxing and perform what they’ve learnt on a microphone and loop station. A beatbox taster workshop works great for up to 30 participants.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="flex items-center justify-center px-5 w-[100%] md:w-[750px] lg:w-[1000px] h-full  ">
+                
+                    <div className="grid grid-cols-4 rounded-2xl border-2 border-[#43ad2e]  p-5 bg-[#121212]">
+                        <img className="w-100% hidden sm:flex " src={workshop5} alt="logo" />
+                        <div className="sm:col-span-3 col-span-4 sm:pl-5">
+                            <div >
+                                <img className="w-full sm:w-[150px] pb-5 flex sm:hidden " src={workshop5} alt="logo" />
+                                <p className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-4xl font-bold text-start flex items-end pb-2 border-b-2 w-full">
+                                    Rap and Lyricism Taster Workshop
+                                </p>
+                            </div>
+                            
+                            <p className="pt-5 text-sm md:text-md lg:text-lg xl:text-xl text-start">
+                            An entertaining and creative introduction to rap and lyricism, in which participants witness a performance, learn how to write their own lyrics and have a chance to perform what they’ve written in front of the group. A Rap and Lyricism Taster workshop works great for up to 30 participants. 
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="flex items-center justify-center px-5 w-[100%] md:w-[750px] lg:w-[1000px] h-full  ">
+                
+                    <div className="grid grid-cols-4 rounded-2xl border-2 border-[#43ad2e]  p-5 bg-[#121212]">
+                        <img className="w-100% hidden sm:flex " src={workshop4} alt="logo" />
+                        <div className="sm:col-span-3 col-span-4 sm:pl-5">
+                            <div >
+                                <img className="w-full sm:w-[150px] pb-5 flex sm:hidden " src={workshop4} alt="logo" />
+                                <p className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-4xl font-bold text-start flex items-end pb-2 border-b-2 w-full">
+                                    Scratch DJ Taster Workshop
+                                </p>
+                            </div>
+                            
+                            <p className="pt-5 text-sm md:text-md lg:text-lg xl:text-xl text-start">
+                            A hands on and highly engaging introduction to scratch DJing, in which participants witness a performance, learn the fundamentals of DJing and perform what they’ve learnt on a diverse range of professional equipment. A Scratch DJ Taster workshop works great for up to 30 participants.
                             </p>
                         </div>
                         
